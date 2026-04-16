@@ -1,1 +1,8 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
+# Ignore local SQLite databases
+*.db
+
+# Ignore large data files (optional, if you want to keep Sale.xlsx local)
+# Sale.xlsx
