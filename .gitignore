@@ -3,6 +3,19 @@
 
 # Ignore local SQLite databases
 *.db
+*.sqlite
+*.sqlite3
 
-# Ignore large data files (optional, if you want to keep Sale.xlsx local)
+# Python Caches & Virtual Environments
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# System Hidden Files
+.DS_Store
+Thumbs.db
+
+# Ignore large data files
 # Sale.xlsx
